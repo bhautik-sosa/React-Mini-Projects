@@ -1,0 +1,97 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #e0e8ff;
+}
+main{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 90vw;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding-bottom: 20px;
+}
+
+h1{
+  background-color: rgb(75, 75, 156);
+  color: #fff;
+  width: 100%;
+  margin-bottom: 15px;
+  font-size: 2rem;
+  padding: 15px 10px;
+}
+
+.input-section{
+  width: 100%;
+}
+
+#inp1{
+  margin: 20px;
+}
+
+.input-slider{
+  width: 70%;
+}
+
+.output{
+  padding: 10px 5px;
+  border-radius: 40%/30%;
+  background-color: rgb(75, 75, 156);
+  color: #fff;
+
+}
+.output-section{
+  margin-top: 20px;
+}
